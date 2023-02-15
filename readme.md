@@ -1,3 +1,3 @@
-# Menu on JS
+# Camp dining menu
 
-Camp dining menu
+Menu on JS
