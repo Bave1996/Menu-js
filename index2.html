@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Меню</title>
+        <link rel="stylesheet" href="index.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="//fonts.googleapis.com/css?family=Oswald"
+        />
+    </head>
+    <body>
+        <div class="grid">
+            <header>
+                <a href="index.html">
+                    <img class="png" src="./photos/1256981.png" alt="" />
+                </a>
+                <p style="font-size: 35px; border: none">Меню</p>
+            </header>
+            <aside>
+                <h2><a href="index1.html">Завтрак</a></h2>
+                <h2>
+                    <a
+                        style="
+                            border: ridge;
+                            border-style: inset;
+                            border-width: 2px 2px 10px 7px;
+                            padding: 10px 20px 10px 20px;
+                        "
+                        href="index2.html"
+                        >Обед</a
+                    >
+                </h2>
+                <h2><a href="index3.html">Ужин</a></h2>
+                <span class="btn-home"><a href="index.html">Главная</a> </span>
+            </aside>
+            <main>
+                <div class="positionBreakfast">
+                    <span class="button firstPositionBtn" id="id1"
+                        >Салат "Французский"</span
+                    >
+                    <span class="button secondPositionBtn" id="id2"
+                        >Суп-лапша грибная со сметаной</span
+                    >
+                    <span class="button thirdPositionBtn" id="id3"
+                        >Котлеты "Московские"</span
+                    >
+                    <span class="button fourthPositionBtn" id="id4"
+                        >Рис отварной</span
+                    >
+                </div>
+                <div class="rightBar hidden" id="ft-position">
+                    <img src="./photos/французский.jpg" alt="" />
+                    <span class="gramms">110г</span>
+                    <p class="composition">
+                        (ветчина, горошек, картофель, морковь, огурцы, яйцо,
+                        майонез)
+                    </p>
+                </div>
+                <div class="rightBar hidden" id="sd-position">
+                    <img src="./photos/суплапшагрибной.jpg" alt="" />
+                    <span class="gramms">250г</span>
+                    <p class="composition">(суп)</p>
+                </div>
+                <div class="rightBar hidden" id="td-position">
+                    <img src="./photos/яичница.jpg" alt="" />
+                    <span class="gramms">100г</span>
+                    <p class="composition">(говядина, свинина)</p>
+                </div>
+                <div class="rightBar hidden" id="fth-position">
+                    <img src="./photos/рис.jpg" alt="" />
+                    <span class="gramms">150г</span>
+                    <p class="composition">(рис)</p>
+                </div>
+            </main>
+        </div>
+
+        <script src="secondPage.js"></script>
+    </body>
+</html>
